@@ -40,7 +40,7 @@ public class Email {
         Session session = Session.getDefaultInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "virtual123456789");
+                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "**");
             }
         });
 
@@ -86,7 +86,7 @@ public class Email {
         Session session = Session.getDefaultInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "virtual123456789");
+                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "**");
             }
         });
 
@@ -130,7 +130,7 @@ public class Email {
         Session session = Session.getDefaultInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "virtual123456789");
+                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "**");
             }
         });
 
@@ -175,7 +175,7 @@ public class Email {
         Session session = Session.getDefaultInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "virtual123456789");
+                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "**");
             }
         });
 
@@ -224,7 +224,7 @@ public class Email {
         Session session = Session.getDefaultInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "virtual123456789");
+                return new PasswordAuthentication("atendimento.virtualbook@hotmail.com", "**");
             }
         });
 
