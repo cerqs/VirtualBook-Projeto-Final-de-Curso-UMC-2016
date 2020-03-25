@@ -1,0 +1,408 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/04/2016, 04:13:49
+    Author     : guilherme
+*/
+
+/* formatação do box de login */
+#formLogin{
+    margin-left:120px;
+    margin-top:120px;
+
+    height:335px;
+    width:600px;
+
+}
+
+
+
+#formCadastrarLivro{
+    margin-left:100px;
+    margin-top:30px;
+
+    height:800px;
+    width:650px;
+
+}
+
+
+#formInserirLivro{
+    margin-left:250px;
+    margin-top:-40px;
+
+    height:220px;
+    width:700px;
+
+}
+
+
+#formCadastro{
+    margin-left:50px;
+    margin-top:120px;
+
+    height:650px;
+    width:800px;
+
+    background: #f7f7f7
+
+}
+
+/* formatação do h2 */
+
+
+
+
+#login{
+    color:#fff;
+    letter-spacing:2px;
+    margin-left:40px;
+
+}
+
+
+
+/* formatação dos inputs */
+
+.input{
+   width:390px;
+    height:40px;
+    margin-left:90px;
+    background: rgba(255, 255, 255, 0.9);
+    border:1px solid #fff;
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;
+
+
+}
+.input:focus{
+    transition:0.5s;
+    background: rgba(255, 255, 255, 0.5);
+    border:1px solid #fff;
+    color:#000;
+
+}
+
+.input2{
+    width:500px;
+    height:29px;
+    margin-left:350px;
+    background: rgba(255, 255, 255, 0.9);
+    border:1px solid #fff;
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;
+    margin-top:50px;
+    border-radius:10px 10px 10px 10px;
+
+}
+
+.input2:focus{
+    transition:0.5s;
+    background: rgba(255, 255, 255, 0.5);
+    border:1px solid #fff;
+    color:#000;
+
+}
+
+.input3{
+    width:390px;
+    height:100px;
+    margin-left:90px;
+    background: rgba(255, 255, 255, 0.9);
+    border:1px solid #fff;
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;
+
+}
+.input3:focus{
+    transition:0.5s;
+    background: rgba(255, 255, 255, 0.5);
+    border:1px solid #fff;
+    color:#000;
+}
+
+
+.submit{
+    background: rgba(39, 150, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    outline:none;
+    height:40px;
+    width:240px;
+    cursor:pointer;
+    color:#fff;
+    letter-spacing:2px;
+    margin-left:20px;
+    transition:0.4s;
+
+}
+
+.submit:hover{
+    border-radius:10px 0px 10px 0px;
+    transition:0.4s;
+    background: rgba(255,255, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:rgba(39, 150, 255, 0.9);
+}
+
+
+
+.submit2{
+    background: rgba(39, 150, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    outline:none;
+    height:40px;
+    width:240px;
+    cursor:pointer;
+    color:#fff;
+    letter-spacing:2px;
+    margin-left:-200px;
+    transition:0.4s;
+
+}
+
+.submit2:hover{
+    border-radius:10px 0px 10px 0px;
+    transition:0.4s;
+    background: #cc3300;
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:#f7f7f7;
+}
+
+
+.submitCadastrarLivroPesquisar{
+
+    height:50px;
+    width:50px;
+    cursor:pointer;     
+    margin-left:39px; 
+    background-size:120%;   
+    float: none; 
+    font-size:0px;
+    margin-top: 90px;
+    border-radius:20px 20px 0px 20px;
+
+
+
+}
+
+
+
+
+.submitCadastrarLivro{
+    /*	background: rgba(39, 150, 255, 0.9);*/
+    border:1px solid rgba(39, 150, 255, 0.9);
+    outline:none;
+    height:55px;
+    width:180px;
+    cursor:pointer;
+    color:#fff;
+    letter-spacing:2px;
+    margin-left:80px;
+    transition:0.4s;
+    background:url(../image/textura-input.jpg); 
+    opacity:1.0;
+    background-size:100%;
+    font-size:16px;
+    float: none;  
+    margin-top:-150px;
+
+
+}
+
+.submitCadastrarLivro:hover{
+    border-radius:10px 10px 10px 10px;
+    transition:0.3s;
+    background: rgba(255,255, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:rgba(39, 150, 255, 0.9);
+}
+
+
+
+
+
+
+.submitCadastrar{
+    background: rgba(39, 150, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    outline:none;
+    height:40px;
+    width:500px;
+    cursor:pointer;
+    color:#fff;
+    letter-spacing:5px;
+    margin-left:150px;
+    transition:0.4s;
+    font-size:larger;
+}
+
+
+.submitCadastrar:hover{
+    border-radius:10px 10px 10px 10px;
+    transition:0.5s;
+    background: rgba(255,255, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:rgba(39, 150, 255, 0.9);
+}
+
+
+
+.links-avulsos{
+    margin-left:120px;
+}
+
+.links-avulsos a{
+    color:#fff;
+}
+.links-avulsos a:hover{
+    text-decoration:none;
+}
+
+
+
+.links-avulsosVoltar{
+    margin-left:0px;
+}
+
+.links-avulsosVoltar a{
+    color:#fff;
+}
+.links-avulsosVoltar a:hover{
+    text-decoration:none;
+}
+
+
+
+
+/* lado direito da tela */
+
+.icon{
+    width:90px;
+    margin-left:240px;
+    padding:20px;
+    border-radius:100%;
+    border:3px solid #fff;
+    transition:0.4s;
+}
+.icon:hover{
+    transition:0.4s;
+    border:3px solid rgba(39, 150, 255, 0.6);
+    opacity:0.7;
+}
+#box-intro{
+    border:1px solid rgba(255,255, 255, 0.2);
+    width:400px;
+    margin-top:30px;
+    color:#fff;
+    font-family:verdana;
+    font-weight:thin;
+    margin-left:120px;
+    letter-spacing:2px;
+    text-align:justify;
+}
+
+
+#box-intro h2{
+    margin-left:90px;
+}
+
+
+#box-intro-cadastradosucesso{
+
+    width:800px;
+    margin-top:30px;
+    color:#fff;
+    font-family:verdana;
+    font-weight:thin;
+    margin-left:120px;
+    letter-spacing:3px;
+    text-align:justify;
+}
+
+
+#box-intro-cadastradosucesso{
+    margin-left:90px;
+}
+
+
+
+
+#virtual-linkdireto{
+    margin-left:242px;
+}
+#virtual-linkdireto a{
+    color:#fff;
+}
+#virtual-linkdireto a:hover{
+    text-decoration:none;
+}
+
+
+
+#nav {
+    margin-left:200px;
+    margin-top:100px;
+    right: 0;
+    top: 0;
+    font-size: 0.9em;
+}
+
+#nav ul li {
+    float: left;
+    line-height: 4.5em;
+    padding-left:0em;
+}
+
+#nav ul li a, #nav ul li span {
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #696969;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#nav ul li > ul {
+    display: none;
+}
+
+#nav ul li:hover a, #nav ul li:hover span {
+    background: #fff;
+}
+
+#nav ul li.active a, #nav ul li.active span {
+    background: #fff;
+}
+
+#nav ul li.current a {
+    background: #444;
+    color: #fff;
+}       

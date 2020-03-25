@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/10/2016, 17:52:56
+    Author     : 11131103404
+*/
+
+.tabela1{
+    
+    margin-top: 5%;
+    margin-left: 30%;
+   
+
+}
+
+.tabela2{
+    
+    margin-top: 3%;
+    margin-left: 30%;
+   
+
+}
+
+.tabela3{
+    
+    margin-top: 3%;
+    margin-left: 30%;
+   
+
+}
+
+
+.Botao{
+    
+    margin-left: 30%;    
+    width:550px;
+    background: rgba(255, 255, 255, 0.9);
+    border:1px solid #fff;
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;    
+    border-radius:10px 10px 10px 10px;
+   
+
+}

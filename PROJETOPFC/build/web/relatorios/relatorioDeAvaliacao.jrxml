@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2634a2a0-f1a7-4916-b588-3f008a587b78">
+	<property name="ireport.zoom" value="1.3286707500000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="75"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="avaliacao" class="modelos.Avaliacao">
+		<fieldDescription><![CDATA[avaliacao]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="quantidade" class="java.lang.Integer">
+		<fieldDescription><![CDATA[quantidade]]></fieldDescription>
+	</field>
+	<field name="resultadoMedia" class="java.lang.Double">
+		<fieldDescription><![CDATA[resultadoMedia]]></fieldDescription>
+	</field>
+	<field name="totalDeAvaliacoes" class="java.lang.Integer">
+		<fieldDescription><![CDATA[totalDeAvaliacoes]]></fieldDescription>
+	</field>
+	<variable name="variable1" class="java.lang.Integer"/>
+	<variable name="resultadoMedia_1" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{resultadoMedia}]]></variableExpression>
+	</variable>
+	<variable name="quantidade_1" class="java.lang.Integer" calculation="Sum">
+		<variableExpression><![CDATA[$F{quantidade}]]></variableExpression>
+	</variable>
+	<variable name="resultadoMedia_SUM" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{resultadoMedia}]]></variableExpression>
+	</variable>
+	<variable name="quantidade_SUM" class="java.lang.Integer" calculation="Sum">
+		<variableExpression><![CDATA[$F{quantidade}]]></variableExpression>
+	</variable>
+	<variable name="resultadoMedia_SUM_1" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{resultadoMedia}]]></variableExpression>
+	</variable>
+	<variable name="totalDeAvaliacoes_SUM" class="java.lang.Integer" calculation="Sum">
+		<variableExpression><![CDATA[$F{totalDeAvaliacoes}]]></variableExpression>
+	</variable>
+	<variable name="resultadoMedia_SUM_2" class="java.lang.Double" resetType="Column" calculation="Sum">
+		<variableExpression><![CDATA[$F{resultadoMedia}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="182" y="18" width="204" height="32" uuid="f58513c9-5b79-48b4-8002-826144be64a9"/>
+				<textElement>
+					<font size="18" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Relatorio de avaliações]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="232" y="0" width="100" height="20" uuid="6b6554d5-9e95-41f3-a19a-b07a3bbab9b2"/>
+				<text><![CDATA[VIRTUAL BOOK ™]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="71" splitType="Stretch">
+			<staticText>
+				<reportElement x="386" y="0" width="81" height="45" uuid="9f88cc45-7ec2-48da-9d18-5751f45a986b"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Media das avaliações]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="65" height="45" uuid="e982af24-b44d-4fe9-b15a-79c6f4689291"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome do Livro]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="131" y="0" width="38" height="20" uuid="7850e847-dde4-448a-99cf-659e7a9c8325"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Autor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="0" width="49" height="20" uuid="50723109-98ad-4d59-b017-5093d3c13c83"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Isbn]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="485" y="0" width="81" height="45" uuid="773e1e45-ba1e-49f1-aa02-6c5d5ae1bd5b"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Qtde de avaliações]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="49" splitType="Stretch">
+			<textField pattern="###0.00">
+				<reportElement x="404" y="12" width="41" height="20" uuid="c56b05c9-4f5c-4331-85c8-4221b20bf05b"/>
+				<textElement>
+					<font isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{resultadoMedia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="12" width="113" height="37" uuid="e9c1b2f4-c329-4d24-9086-c410911d6cdd"/>
+				<textFieldExpression><![CDATA[$F{avaliacao}.getProduto().getTitulo()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="12" width="121" height="20" uuid="afdbbec9-9198-49d3-ad7c-477642dadd99"/>
+				<textFieldExpression><![CDATA[$F{avaliacao}.getProduto().getAutor()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="252" y="12" width="155" height="20" uuid="fa07c03a-50de-4fb7-af35-1a5f820b4e6c"/>
+				<textFieldExpression><![CDATA[$F{avaliacao}.getProduto().getIsbn()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="504" y="12" width="51" height="20" uuid="c50aa1af-ec31-497f-a513-a4a61be60f20"/>
+				<textFieldExpression><![CDATA[$F{quantidade}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="36" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="34" width="281" height="20" uuid="b5aafa8d-9ce7-4347-8938-c8ed19676994"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="424" y="29" width="80" height="20" uuid="7419d762-9ec1-48f7-aa6b-c59056dc68e3"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="504" y="29" width="40" height="20" uuid="2ca48435-08e8-4dc5-99d5-d44b92820bd1"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<staticText>
+				<reportElement x="367" y="4" width="118" height="24" uuid="92b73779-7118-4232-9f24-577fdc47bc51"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total de avaliacões]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="504" y="4" width="51" height="20" uuid="4fd33b5e-d1ab-4a6b-802c-7804d239a3aa"/>
+				<textFieldExpression><![CDATA[$V{quantidade_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

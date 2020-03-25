@@ -1,0 +1,26 @@
+.teste{
+
+    margin-top:90px;   
+    height:250px;
+    width:560px;    
+    margin-left:390px;
+
+
+}
+
+
+.submit{
+    background: rgba(39, 150, 255, 0.9);
+    border:1px solid rgba(39, 150, 255, 0.9);
+    outline:none;
+    height:40px;
+    width:300px;
+    cursor:pointer;
+    color:#fff;
+    letter-spacing:2px;
+    margin-left:500px;
+    transition:0.4s;
+
+
+}
+

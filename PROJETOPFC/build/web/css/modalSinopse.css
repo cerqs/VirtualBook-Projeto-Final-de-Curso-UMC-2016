@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/05/2016, 15:27:10
+    Author     : 11131103404
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/05/2016, 20:12:16
+    Author     : 11131103404
+*/
+
+/* The Modal (background) */
+
+.modalSinopse {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contentSinopse {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    height: 70%;                
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.8s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closeSinopse {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeSinopse:hover,
+.closeSinopse:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerSinopse {
+    padding: 2px 16px;
+    background-color: #000000;
+    color: white;
+}
+
+.modal-bodySinopse {padding: 2px 16px;}
+
+.modal-footerSinopse {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+.inputemail{
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 350px;
+    height:25px;
+
+
+} 
+
+.inputsenha{
+    margin-top: 15px;
+    margin-left: 140px;
+    width: 350px;
+    height:25px;
+
+
+
+} 
+
+.submitlogar{
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 100px;                              
+} 
+
+.submitcadastrar{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100px;                
+} 
+
+#sinopse{
+
+
+/*    height:320px;
+    width:770px;
+     
+    color:#000;
+    font-family:verdana;
+    font-size:19px;
+    max-height: 320px;
+    max-width: 770px;*/
+   
+    
+    padding-bottom:25%; /* Location of the box */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    max-height: 70%;
+    max-width: 100%;
+       
+   
+   
+
+}
+
+#comentario{
+    
+    
+    
+    padding-bottom:34%; /* Location of the box */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    max-height: 70%;
+    max-width: 100%;
+
+       
+}
+
+
+

@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/04/2016, 21:08:27
+    Author     : guilherme
+*/
+.container img{
+    max-width:130px;
+    min-width:110px;
+    max-height:130px;
+    min-height:125px; 
+    width: auto;
+    height: auto;  
+
+}
+
+
+#nomeProduto{
+    font-size:14px;
+    letter-spacing:1px;
+    font-family:verdana;
+    color:#000;
+    
+}
+
+
+#formCarrinhoDeCompras2{
+    margin-left:0px;
+    margin-top:-10px;
+
+    height:5px;
+    width:1350px;
+
+}
+
+#formCarrinhoDeCompras3{
+    margin-left:0px;
+    margin-top:10px;
+
+    height:5px;
+    width:1350px;
+
+}
+
+.verCarrinho{
+    /*	background: rgba(39, 150, 255, 0.9);*/
+    
+/*    border-radius:5px 5px 5px 5px;
+    outline:none;
+    height:48px;
+    width:55px;
+    cursor:pointer;
+    font-size:0px;
+    margin-left:20px;
+    transition:0.4s;
+    background:url(../image/CarrinhoDeCompraPaginaPrincipal.png);    
+    margin-top:-10px;
+    */
+    
+     
+
+}
+
+
+#verCarrinhoTexto{
+margin-left:1200px;
+margin-top:03px;
+
+}
+
+#verCarrinhoTexto2{
+margin-left:1090px;
+
+
+}
+
+
+
+
+#opcaoComprar{
+    cursor:pointer;
+    color:#000;  
+    border:1px solid rgba(39, 150, 255, 0.9);
+    border-radius:3px 3px 3px 3px;
+/*    border-color: #000;*/
+
+
+}
+
+
+#opcaoComprar:hover{
+    border-radius:10px 10px 10px 0px;
+    transition:0.4s;
+    background: #ccffcc;
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:#000;
+}
+
+
+#opcaoComprar2{
+    cursor:pointer;
+    color:#000;    
+    border:1px solid rgba(39, 150, 255, 0.9);
+    border-radius:3px 3px 3px 3px;
+/*    border-color: #000;*/
+
+
+}
+
+
+#opcaoComprar2:hover{
+    border-radius:10px 10px 0px 10px;
+    transition:0.4s;
+    background:#ff6666;
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:#000;
+}
+
+#entreoucadastrese{
+    cursor:pointer;
+    color:#003333;
+    border:1px solid rgba(39, 150, 255, 0.9);
+    border-radius:3px 3px 3px 3px;
+    border-color: #cc0033;
+    margin-left:0px;
+    margin-top:10px;
+
+
+}
+
+
+#entreoucadastrese:hover{
+    border-radius:10px 10px 10px 0px;
+    transition:0.4s;
+    /*    background: rgba(255,255, 255, 0.9);*/
+    background:#ff9;
+    border:1px solid rgba(39, 150, 255, 0.9);
+    color:#000;
+}
+
+
+#ola{
+    
+     
+    margin-left:450px;
+    margin-top:10px;
+    font-size:16px;
+    letter-spacing:1px;
+    font-family:verdana;
+    color:#000;
+
+
+}
+
+.inputLogado{
+    width:500px;
+    height:29px;
+    margin-left:380px;
+    background:#fff;
+    border:1px solid #fff;
+    border-color: #000;
+    margin-bottom:40px;
+    padding-left:40px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;
+    margin-top:80px;
+    border-radius:10px 10px 10px 10px;
+
+}
+
+
+.input{
+    width:500px;
+    height:29px;
+    margin-left:380px;
+    background:#fff;
+    border:1px solid #fff;
+    border-color: #000;
+    margin-bottom:40px;
+    padding-left:40px;
+    padding-top:3px;
+    letter-spacing:2px;
+    font-family:verdana;
+    font-size:16px;
+    font-weight:thin;
+    transition:0.5s;
+    outline:none;
+    margin-top:80px;
+    border-radius:10px 10px 10px 10px;
+
+}
+
+.input2:focus{
+    transition:0.5s;
+    background: rgba(255, 255, 255, 0.5);
+    border:1px solid #fff;
+    color:#000;
+
+}
+
+.submitPesquisarCarrinho{
+
+    height:40px;
+    width:40px;
+    cursor:pointer;     
+    margin-left:0px; 
+    background-size:100%;   
+    float: none; 
+    font-size:0px;    
+    border-radius:20px 20px 0px 20px;
+    
+
+
+
+}
+
+#opcoes3{
+    cursor:pointer;
+    color:#000; 
+   border:1px solid rgba(39, 150, 255, 0.9);
+    border-radius:5px 5px 5px 5px;
+    border-color: #000;
+    margin-top:20px;
+    
+
+}
